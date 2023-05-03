@@ -1,0 +1,6 @@
+{
+    "parent": "afnmod:item/dirt_bow",
+    "textures": {
+        "layer0": "afnmod:item/dirt_bow_pulling_2"
+    }
+}

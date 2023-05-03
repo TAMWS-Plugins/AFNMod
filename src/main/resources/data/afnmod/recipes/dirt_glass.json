@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "afnmod:dirtingot_block"
+  },
+  "result": "afnmod:dirt_glass",
+  "experience": 0.1,
+  "cookingtime": 200
+}

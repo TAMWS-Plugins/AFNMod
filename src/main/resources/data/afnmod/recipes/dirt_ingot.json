@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#D#",
+    "DZD",
+    "#D#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "Z": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "afnmod:dirt_ingot",
+    "count": 2
+  }
+}

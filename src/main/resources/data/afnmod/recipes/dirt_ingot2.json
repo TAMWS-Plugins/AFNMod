@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "afnmod:dirtingot_block"
+    }
+  },
+  "result": {
+    "item": "afnmod:dirt_ingot",
+    "count": 9
+  }
+}

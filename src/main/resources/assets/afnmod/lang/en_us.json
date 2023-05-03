@@ -1,0 +1,30 @@
+{
+  "itemGroup.afnmod" : "AFN Mod",
+  "itemGroup.afnmodblock" : "AFN Mod Blocks",
+  "itemGroup.afnmodtools" : "AFN Mod Tools",
+  "itemGroup.afnmodcheat" : "AFN Mod CheatItems",
+  "itemGroup.afnmodarmor" : "AFN Mod Armors",
+
+  "item.afnmod.dirt_ingot" : "Dirt Ingot",
+  "item.afnmod.dirt_meat" : "Dirt Meat",
+  "item.afnmod.dirt_meat.desc" : "It's made of diamonds, so when you eat it, it gets dark in front of you.",
+  "item.afnmod.dirt_sword" : "Dirt Sword",
+  "item.afnmod.dirt_sword.desc" : "They use a lot of diamonds, so if they attack, they blow the enemy away.",
+  "item.afnmod.cheat_sword" : "Cheat Sword",
+  "item.afnmod.dirt_pickaxe" : "Dirt Pickaxe",
+  "item.afnmod.dirt_axe" : "Dirt Axe",
+  "item.afnmod.dirt_shovel" : "Dirt Shovel",
+  "item.afnmod.dirt_helmet" : "Dirt Helmet",
+  "item.afnmod.dirt_chestplate" : "Dirt Chestplate",
+  "item.afnmod.dirt_leggings" : "Dirt Leggings",
+  "item.afnmod.dirt_boots" : "Dirt Boots",
+  "item.afnmod.dirt_bow" : "Dirt Bow",
+
+  "block.afnmod.dirtingot_block" : "Dirt Ingot Block",
+  "block.afnmod.dirt_glass" : "Dirt Glass",
+  "block.afnmod.dirt_ore" : "Dirt Ore",
+
+  "key.afnmod.boost" : "Boost",
+  "key.afnmod.mode" : "Tools Mode Change",
+  "key.category.afnmod" : "AFN Mod"
+}

@@ -1,0 +1,30 @@
+{
+  "itemGroup.afnmod" : "AFN Mod",
+  "itemGroup.afnmodblock" : "AFN Mod ブロック",
+  "itemGroup.afnmodsword" : "AFN Mod ツール",
+  "itemGroup.afnmodcheat" : "AFN Mod チートアイテム",
+  "itemGroup.afnmodarmor" : "AFN Mod アーマー",
+
+  "item.afnmod.dirt_ingot" : "土 インゴット",
+  "item.afnmod.dirt_meat" : "土の肉",
+  "item.afnmod.dirt_meat.desc" : "ダイヤモンドを使用しているので、食べると、目の前が暗くなる。",
+  "item.afnmod.dirt_sword" : "土の剣",
+  "item.afnmod.dirt_sword.desc" : "ダイヤを大量に使うので、攻撃すると敵を吹き飛ばす",
+  "item.afnmod.cheat_sword" : "チート剣",
+  "item.afnmod.dirt_pickaxe" : "土のピッケル",
+  "item.afnmod.dirt_axe" : "土の斧",
+  "item.afnmod.dirt_shovel" : "土のシャベル",
+  "item.afnmod.dirt_helmet" : "土のヘルメット",
+  "item.afnmod.dirt_chestplate" : "土のチェストプレート",
+  "item.afnmod.dirt_leggings" : "土のレギンス",
+  "item.afnmod.dirt_boots" : "土のブーツ",
+  "item.afnmod.dirt_bow" : "土の弓",
+
+  "block.afnmod.dirtingot_block" : "土インゴットブロック",
+  "block.afnmod.dirt_glass": "土ガラス",
+  "block.afnmod.dirt_ore" : "土鉱石",
+
+  "key.afnmod.boost" : "ブースト",
+  "key.afnmod.mode" : "ツールのモード変更",
+  "key.category.afnmod" : "AFN Mod"
+}

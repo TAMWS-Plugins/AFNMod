@@ -6,11 +6,12 @@
     "0.0.2-alpha": "Dirt_Ingotを追加",
     "0.0.3-alpha": "Dirt_Ingot_Blockを追加"
     "0.0.4-alpha": "ブロック、VersionCheckerを追加"
+    "1.0.0": "コードの最終確認、正式リリース"
   },
   //最新のバージョンを示す。
   //latestとrecommendedをマインクラフトのバージョンごとに記す。
   "promos": {
-    "1.16.4-latest": "0.0.4-alpha",
-    "1.16.4-recommended": "0.0.4-alpha"
+    "1.16.4-latest": "1.0.0",
+    "1.16.4-recommended": "1.0.0"
   }
 }

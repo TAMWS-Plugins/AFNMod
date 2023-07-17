@@ -1,12 +1,7 @@
 {
-  //@MODアノテーションの引数 updateJSONにこれのリンクを渡す。
-  //MODのダウンロードページを設置する。
   "homepage": "https://github.com/TAMWS-Plugins/AFNMod/releases/",
-  //マインクラフトのバージョンごとにMODのバージョンとリリースログを記す。
   "1.16.4": {
     //バージョンの記法は基本数字で、1.2.34や3.34のように示す。
-    //もしα版などを示す場合は0.9.8-alpha.1のように示せば、forge側でどれが最新か判定する。
-    //ex.0.9.8-alpha.1 -> 0.9.8-alpha.2 -> 1.0
     "0.0.1-alpha": "Modの情報を変更",
     "0.0.2-alpha": "Dirt_Ingotを追加",
     "0.0.3-alpha": "Dirt_Ingot_Blockを追加"

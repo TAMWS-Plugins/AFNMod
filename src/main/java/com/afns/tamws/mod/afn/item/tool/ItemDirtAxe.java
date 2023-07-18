@@ -26,7 +26,7 @@ import java.util.List;
 public class ItemDirtAxe extends AxeItem {
 
     public ItemDirtAxe() {
-        super(AFNTierList.DIRT, 5F, -2.9F, new Properties().group(AFNMod.AFNMODTOOLS_TAB).rarity(Rarity.RARE).isImmuneToFire());
+        super(AFNTierList.DIRT, 5F, -2.9F, new Properties().group(AFNMod.AFNModTab.AFNMODTOOLS_TAB).rarity(Rarity.RARE).isImmuneToFire());
         this.setRegistryName("dirt_axe");
     }
 

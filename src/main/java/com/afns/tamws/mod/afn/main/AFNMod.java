@@ -12,11 +12,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod("afnmod")
 public class AFNMod {
 
-    public static final ItemGroup AFNMOD_TAB = new AFNModTabs.AFNModTab();
-    public static final ItemGroup AFNMODBLOCK_TAB = new AFNModTabs.AFNModBlockTab();
-    public static final ItemGroup AFNMODTOOLS_TAB = new AFNModTabs.AFNModToolsTab();
-    public static final ItemGroup AFNMODCHEAT_TAB = new AFNModTabs.AFNModCheatTab();
-    public static final ItemGroup AFNMODARMOR_TAB = new AFNModTabs.AFNModArmorTab();
+    public static class AFNModTab {
+        public static final ItemGroup AFNMOD_TAB = new AFNModTabs.AFNModTab();
+        public static final ItemGroup AFNMODBLOCK_TAB = new AFNModTabs.AFNModBlockTab();
+        public static final ItemGroup AFNMODTOOLS_TAB = new AFNModTabs.AFNModToolsTab();
+        public static final ItemGroup AFNMODCHEAT_TAB = new AFNModTabs.AFNModCheatTab();
+        public static final ItemGroup AFNMODARMOR_TAB = new AFNModTabs.AFNModArmorTab();
+    }
 
     public AFNMod() {
         MinecraftForge.EVENT_BUS.addListener(EventPriority.HIGH, AFNModOreGeneration::oreGen);

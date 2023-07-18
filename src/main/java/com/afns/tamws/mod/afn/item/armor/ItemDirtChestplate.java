@@ -29,7 +29,7 @@ public class ItemDirtChestplate extends ArmorItem {
     public static int set;
 
     public ItemDirtChestplate() {
-        super(AFNArmorMaterials.DIRT, EquipmentSlotType.CHEST, new Properties().group(AFNMod.AFNMODARMOR_TAB).rarity(Rarity.EPIC).isImmuneToFire());
+        super(AFNArmorMaterials.DIRT, EquipmentSlotType.CHEST, new Properties().group(AFNMod.AFNModTab.AFNMODARMOR_TAB).rarity(Rarity.EPIC).isImmuneToFire());
         this.setRegistryName("dirt_chestplate");
     }
 
@@ -43,8 +43,6 @@ public class ItemDirtChestplate extends ArmorItem {
         && player.getItemStackFromSlot(EquipmentSlotType.CHEST).getItem() == AFNModItems.DIRT_CHESTPLATE
         && player.getItemStackFromSlot(EquipmentSlotType.LEGS).getItem() == AFNModItems.DIRT_LEGGINGS
         && player.getItemStackFromSlot(EquipmentSlotType.FEET).getItem() == AFNModItems.DIRT_BOOTS) {
-            if (player.getItemStackFromSlot(EquipmentSlotType.CHEST).getItem() == AFNModItems.DIRT_CHESTPLATE && AFNKeyBind.afnKey[0].isKeyDown())
-                modeChange(stack);
 
             set = 1;
             player.fallDistance = 0;

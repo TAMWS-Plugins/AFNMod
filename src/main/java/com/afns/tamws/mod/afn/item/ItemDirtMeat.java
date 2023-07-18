@@ -18,7 +18,7 @@ import java.util.List;
 public class ItemDirtMeat extends Item {
 
     public ItemDirtMeat() {
-        super(new Properties().group(AFNMod.AFNMOD_TAB)
+        super(new Properties().group(AFNMod.AFNModTab.AFNMOD_TAB)
                 .food(new Food.Builder()
                         .hunger(36)
                         .saturation(1.6F)

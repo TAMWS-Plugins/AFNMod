@@ -50,9 +50,9 @@ public class AFNModBlocks {
 
             final BlockItem[] items = {
 
-                new BlockItem(DIRTINGOT_BLOCK, new Item.Properties().group(AFNMod.AFNMODBLOCK_TAB).isImmuneToFire()),
-                new BlockItem(DIRT_GLASS, new Item.Properties().group(AFNMod.AFNMODBLOCK_TAB)),
-                new BlockItem(DIRT_ORE, new Item.Properties().group(AFNMod.AFNMODBLOCK_TAB).isImmuneToFire())
+                new BlockItem(DIRTINGOT_BLOCK, new Item.Properties().group(AFNMod.AFNModTab.AFNMODBLOCK_TAB).isImmuneToFire()),
+                new BlockItem(DIRT_GLASS, new Item.Properties().group(AFNMod.AFNModTab.AFNMODBLOCK_TAB)),
+                new BlockItem(DIRT_ORE, new Item.Properties().group(AFNMod.AFNModTab.AFNMODBLOCK_TAB).isImmuneToFire())
 
             };
             for (BlockItem item : items) {

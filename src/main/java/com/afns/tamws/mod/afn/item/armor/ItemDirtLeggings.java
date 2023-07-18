@@ -8,7 +8,7 @@ import net.minecraft.item.Rarity;
 public class ItemDirtLeggings extends ArmorItem {
 
     public ItemDirtLeggings() {
-        super(AFNArmorMaterials.DIRT, EquipmentSlotType.LEGS, new Properties().group(AFNMod.AFNMODARMOR_TAB).rarity(Rarity.EPIC).isImmuneToFire());
+        super(AFNArmorMaterials.DIRT, EquipmentSlotType.LEGS, new Properties().group(AFNMod.AFNModTab.AFNMODARMOR_TAB).rarity(Rarity.EPIC).isImmuneToFire());
         this.setRegistryName("dirt_leggings");
     }
 }

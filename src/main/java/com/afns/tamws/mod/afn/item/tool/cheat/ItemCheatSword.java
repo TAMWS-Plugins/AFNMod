@@ -16,7 +16,7 @@ import net.minecraft.world.World;
 public class ItemCheatSword extends SwordItem {
 
     public ItemCheatSword() {
-        super(AFNTierList.DIRT, 95, -2.4F, new Properties().group(AFNMod.AFNMODCHEAT_TAB).rarity(Rarity.RARE).isImmuneToFire());
+        super(AFNTierList.DIRT, 95, -2.4F, new Properties().group(AFNMod.AFNModTab.AFNMODCHEAT_TAB).rarity(Rarity.RARE).isImmuneToFire());
         this.setRegistryName("cheat_sword");
     }
 

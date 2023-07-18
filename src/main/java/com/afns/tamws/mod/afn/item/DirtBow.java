@@ -19,7 +19,7 @@ import net.minecraft.world.World;
 public class DirtBow extends BowItem {
 
     public DirtBow() {
-        super(new Properties().group(AFNMod.AFNMODTOOLS_TAB).rarity(Rarity.EPIC).maxDamage(2031).isImmuneToFire());
+        super(new Properties().group(AFNMod.AFNModTab.AFNMODTOOLS_TAB).rarity(Rarity.EPIC).maxDamage(2031).isImmuneToFire());
         this.setRegistryName("dirt_bow");
     }
 

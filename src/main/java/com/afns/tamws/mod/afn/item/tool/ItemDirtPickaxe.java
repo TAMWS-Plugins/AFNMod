@@ -21,7 +21,7 @@ import java.util.List;
 public class ItemDirtPickaxe extends PickaxeItem {
 
     public ItemDirtPickaxe() {
-        super(AFNTierList.DIRT, 1, -2.8F, new Properties().group(AFNMod.AFNMODTOOLS_TAB).rarity(Rarity.RARE).isImmuneToFire());
+        super(AFNTierList.DIRT, 1, -2.8F, new Properties().group(AFNMod.AFNModTab.AFNMODTOOLS_TAB).rarity(Rarity.RARE).isImmuneToFire());
         this.setRegistryName("dirt_pickaxe");
     }
 

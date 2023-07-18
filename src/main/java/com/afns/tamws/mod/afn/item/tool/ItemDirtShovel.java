@@ -26,7 +26,7 @@ import java.util.List;
 public class ItemDirtShovel extends ShovelItem {
 
     public ItemDirtShovel() {
-        super(AFNTierList.DIRT, 1.5F, -3F, new Properties().group(AFNMod.AFNMODTOOLS_TAB).rarity(Rarity.RARE).isImmuneToFire());
+        super(AFNTierList.DIRT, 1.5F, -3F, new Properties().group(AFNMod.AFNModTab.AFNMODTOOLS_TAB).rarity(Rarity.RARE).isImmuneToFire());
         this.setRegistryName("dirt_shovel");
     }
 

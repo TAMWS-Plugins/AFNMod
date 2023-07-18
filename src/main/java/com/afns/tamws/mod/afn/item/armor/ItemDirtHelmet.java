@@ -8,7 +8,7 @@ import net.minecraft.item.Rarity;
 public class ItemDirtHelmet extends ArmorItem {
 
     public ItemDirtHelmet() {
-        super(AFNArmorMaterials.DIRT, EquipmentSlotType.HEAD, new Properties().group(AFNMod.AFNMODARMOR_TAB).rarity(Rarity.EPIC).isImmuneToFire());
+        super(AFNArmorMaterials.DIRT, EquipmentSlotType.HEAD, new Properties().group(AFNMod.AFNModTab.AFNMODARMOR_TAB).rarity(Rarity.EPIC).isImmuneToFire());
         this.setRegistryName("dirt_helmet");
     }
 }

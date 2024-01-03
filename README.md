@@ -3,7 +3,7 @@
 ## 作者
 ### [AFN_FloalWheat](https://github.com/FloalWheat)
 ## 著作権
-### [LICENSE](?tab=GPL-3.0-1-ov-file)(GNU General Public License v3.0)をご確認ください。
+### [LICENSE](https://github.com/TAMWS-Plugins/AFNMod/tree/main?tab=GPL-3.0-1-ov-file)(GNU General Public License v3.0)をご確認ください。
 ## 使用方法
 ### ツール
 #### ツールのモード変更
